@@ -34,7 +34,7 @@ export default function Account({ navigation }) {
                 <Text style={styles.profileText}>Profile</Text>
                 <TouchableOpacity style={styles.Links}>
                     <View style={styles.LinksItem}>
-                        <FontAwesome name="user-circle" style={styles.icon} size={24} color="black" />
+                        <FontAwesome name="user-circle" style={[styles.icon, {marginLeft: 2}]} size={24} color="black" />
                         <Text style={styles.linkText}>Edit Profile</Text>
                     </View>
                     <Text>  <AntDesign name="right"  style={styles.icon} size={15} color="black" /></Text>
