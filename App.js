@@ -7,7 +7,7 @@ import { useFonts } from 'expo-font';
 import Login from './components/Login'
 import Register from './components/Register'
 import Chatbox from './components/Chatbox'
-import Sample from './components/Sample'
+import Profile from './components/Profile'
 import Account from './components/Account'
 import Main from './components/Main'
 import People from './components/People'
@@ -35,11 +35,12 @@ export default function App() {
           <Stack.Screen name="Login" component={Login} options={{
             headerRight: () => (
               <TouchableOpacity>
-                <FontAwesome5 name="ellipsis-v" size={16} color="#FFB84C" />
+                <FontAwesome5 name="ellipsis-v" size={16} color="rgba(51, 51, 51, 0.8)" />
               </TouchableOpacity>
             )
           }} />
           <Stack.Screen name="Register" component={Register} />
+          <Stack.Screen name="Profile" component={Profile} />
           <Stack.Screen name="Chatbox" component={Chatbox} options={{
             headerShown: false,
           }} />

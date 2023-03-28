@@ -55,9 +55,35 @@ export default StyleSheet.create({
     links: {
         color: "#ffff",
     },
+    loading:{
+        flex: 1,
+        justifyContent: 'center',
+    },
     screen_title: {
         color: "#ffff",
         fontSize: 25
-    }
+    },
+    active: {
+        position: 'relative',
+        width: 40,
+        height: 40,
+      
+      },
+      activeImage: {
+        width: 40,
+        height: 40,
+        resizeMode: 'cover',
+      },
+      activeCircle: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0,
+        width: 15,
+        height: 15,
+        borderRadius: 10,
+        backgroundColor: 'green',
+        borderWidth: 2,
+        borderColor: 'white',
+      },
 });
 

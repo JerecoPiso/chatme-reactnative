@@ -5,7 +5,8 @@ export default StyleSheet.create({
   form: {
     paddingHorizontal: 18,
     flex: 1,
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: "#F6F1F1"
   },
   image: {
     flex: 1,
@@ -15,8 +16,25 @@ export default StyleSheet.create({
   },
   button_login: {
     paddingVertical: 15,
-    backgroundColor: "#FFB84C",
+    backgroundColor: "#19A7CE",
     borderRadius: 3
+  },
+  google_login:{
+      justifyContent: "center",
+      flexDirection: "row",
+      backgroundColor: "rgb(255,255,255)",
+      borderRadius: 3,
+      paddingVertical: 15,
+      paddingHorizontal: 10,
+      borderColor: "rgba(50, 50, 93, 0.25)",
+      borderWidth: 0.2
+  },
+  googleTextBtn:{
+    verticalAlign: "middle",
+    fontSize: 16,
+    fontFamily: 'Poppins-Regular',
+    marginLeft: 13,
+  
   },
   center: {
     textAlign: "center",
@@ -31,10 +49,11 @@ export default StyleSheet.create({
     marginTop: StatusBar.currentHeight,
     // backgroundColor: "rgb(209, 220, 224)",
    
+   
   },
   logo:{
     fontSize: 40,
-    color: "#FFB84C",
+    color: "#19A7CE",
     fontWeight: 600,
     textAlign: "center",
     marginTop: -40,
@@ -46,10 +65,10 @@ export default StyleSheet.create({
   input: {
     height: 48,
     marginTop: 3,
-    borderWidth: 1,
+    borderWidth: 0.5,
     padding: 10,
     marginBottom: 10,
-    borderColor: "#FFB84C",
+    borderColor: "rgba(25, 167, 206, 0.4)",
     backgroundColor: "#ffff",
     // color: "#ffff",
     fontFamily: 'Poppins-Regular',
@@ -119,7 +138,7 @@ export default StyleSheet.create({
     
   },
   signup: {
-    color: "#FFB84C",
+    color: "#19A7CE",
     fontWeight: 500,
     
   }

@@ -39,7 +39,7 @@ export default StyleSheet.create({
     fontFamily: 'Poppins-Regular',
   },
   message_text_sent: {
-    backgroundColor: "#FFB84C",
+    backgroundColor: "#19A7CE",
     verticalAlign: 'middle',
     padding: 10,
     borderRadius: 10,
@@ -59,7 +59,7 @@ export default StyleSheet.create({
     color: "rgba(0,0,0,0.6)"
   },
   name: {
-    borderColor: "#FFB84C",
+    borderColor: "#19A7CE",
     fontSize: 16,
     flexShrink: 1,
     paddingLeft: 10,
@@ -119,7 +119,7 @@ export default StyleSheet.create({
   head: {
     flex: 0.8,
     width: '100%',
-    backgroundColor: '#FFB84C',
+    backgroundColor: '#19A7CE',
     paddingLeft: 10,
     paddingRight: 20,
     paddingTop: 6,
@@ -138,6 +138,6 @@ export default StyleSheet.create({
   send: {
     flex: 1,
     width: '100%',
-    backgroundColor: '#FFB84C'
+    backgroundColor: '#19A7CE'
   },
 })

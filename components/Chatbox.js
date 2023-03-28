@@ -143,7 +143,7 @@ export default function Chatbox({ navigation }) {
             onChangeText={setMessage}
           />
           <TouchableOpacity style={styles.button} onPress={handleSend}>
-            <Text><Ionicons name="send" size={24} color="#FFB84C" /></Text>
+            <Text><Ionicons name="send" size={24} color="#19A7CE" /></Text>
           </TouchableOpacity>
         </View>
       </View>

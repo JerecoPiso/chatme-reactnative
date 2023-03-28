@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getDatabase, ref, onValue, orderByChild, equalTo, query, orderByValue } from 'firebase/database';
-import { getAuth } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCLcNXX4nmpIHSLoC2yqVBa7_zOwz-vQXI",
@@ -17,5 +17,7 @@ const firebase = initializeApp(firebaseConfig);
 const usersRef = ref(getDatabase(firebase), 'users')
 const messagesRef = ref(getDatabase(firebase), 'messages')
 const auth = getAuth(firebase);
+const provider = new GoogleAuthProvider()
 
-export { auth, usersRef, messagesRef, onValue, orderByChild, equalTo, query, firebase, ref, getDatabase, orderByValue}
+
+export { auth, provider, usersRef, messagesRef, onValue, orderByChild, equalTo, query, firebase, ref, getDatabase, orderByValue}
